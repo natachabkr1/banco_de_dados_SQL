@@ -40,7 +40,7 @@ cursor = conexao.cursor()
 
 #* DELETE - deletar alguma informação
 # cursor.execute('DELETE FROM usuario where id=1')   # deletar apenas alguma informação
-# dados = cursor.execute('SELECT * FROM usuario')  # visualize * todos os dados
+
 
 #* SELECT - Visualizar informações
 # dados = cursor.execute('SELECT * FROM usuario')  # criando uma variável "dados" e associando uma seleção - * visualize todas informações 
