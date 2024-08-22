@@ -67,7 +67,7 @@ cursor = conexao.cursor()
 # for usuario in dados:
 #     print(usuario)
 
-#* Colocando em ordem decrescente - DESC
+#* DESC - Colocando em ordem decrescente 
 # dados = cursor.execute('SELECT * FROM usuario ORDER BY nome DESC')
 # for usuario in dados:
 #     print(usuario)
@@ -79,7 +79,7 @@ cursor = conexao.cursor()
 # conexao.close
 
 
-#* LIMIT 
+#* LIMIT - limita o número de informações
 # dados = cursor.execute('SELECT * FROM usuario LIMIT 2')
 # for usuario in dados:
 #     print(usuario)
